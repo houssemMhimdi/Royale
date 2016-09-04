@@ -1,0 +1,19 @@
+$theme_name: "PapaCiga";
+$theme_uri: "#";
+$theme_description: "Description here";
+$theme_version: "1.0.0";
+$theme_author: "Jason Van Hil";
+$theme_author_uri: "#";
+$theme_license: "";
+
+
+$paca-prefix : paca;
+
+
+
+@mixin transition($transition...) {
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    -moz-transition:    $transition;
+    transition:         $transition;
+}

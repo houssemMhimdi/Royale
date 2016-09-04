@@ -1,0 +1,373 @@
+//Standard Buttons.
+.#{$paca-prefix}-button{
+	background-image:none;
+	background-color:$paca-light-grey;
+	color:darken($paca-grey, 50%);
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    height: auto;
+    padding: 15px 25px;
+    margin: 0 10px 15px 0;
+    font-weight: normal;
+    -webkit-transition: all .3s ease-out;
+    -moz-transition: all .3s ease-out;
+    transition: all .3s ease-out;
+    border: 0;
+    position: relative;
+    outline: 0;
+    text-shadow: none;
+    text-decoration: none;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    max-width: 100%;
+
+    &:hover{
+    	text-decoration:none;
+    	color:darken($paca-grey, 50%);
+    }
+    &:focus{
+    	text-decoration:none;
+    	color:darken($paca-grey, 50%);    	
+    }
+    &:active{
+    	text-decoration:none;
+    	color:darken($paca-grey, 50%);    	
+    }
+    &:visited{
+    	text-decoration:none;
+    	color:darken($paca-grey, 50%);
+    }&.full-width {
+	    width: 100%;
+	    text-align: center;
+	}&.medium {
+    	font-size: 14px;
+    	padding: 18px 28px;
+	}&.large {
+	    font-size: 16px;
+	    padding: 20px 30px;
+	}&.x-large {
+	    font-size: 18px;
+	    padding: 22px 32px;
+	}&.thiner-font {
+    	font-weight: 200;
+	}&.hover-right{
+		span.text{
+		    transform: translate(10px);
+		    display: inline-block;
+		    transition: 0.2s;			
+		}
+		.#{$paca-prefix}-icon {
+		    transform: translate(-10px) scale(0);
+		    opacity:0;
+		    transition: 0.2s;
+		    margin: 0 2px;
+		}
+		&:hover{
+			span.text {
+			    transform: translate(0px) scale(1);
+			    transition: 0.2s;
+			}
+
+
+			.#{$paca-prefix}-icon  {
+			    transform: translate(0px) scale(1);
+			    opacity:1;
+			    transition: 0.2s;
+			}
+
+		}
+	}&.hover-left{
+		span.text{
+		    transform: translate(-10px);
+		    display: inline-block;
+		    transition: 0.2s;			
+		}
+		.#{$paca-prefix}-icon {
+		    transform: translate(10px) scale(0);
+		    opacity:0;
+		    transition: 0.2s;
+		    margin: 0 2px;
+		}
+		&:hover{
+			span.text {
+			    transform: translate(0px) scale(1);
+			    transition: 0.2s;
+			}
+
+
+			.#{$paca-prefix}-icon  {
+			    transform: translate(0px) scale(1);
+			    opacity:1;
+			    transition: 0.2s;
+			}
+
+		}
+	}
+
+    &.#{$paca-prefix}-button-red{
+    		background-color:$paca-red;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:darken($paca-red,10%);
+		    	color:$paca-white;
+		    }
+		    &:focus{
+		    	color:$paca-white;    	
+		    }
+		    &:active{
+		    	color:$paca-white;    	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    }
+		    &.bordered{
+		    	color:$paca-red;
+		    	border-color:$paca-red;
+		    	&:hover{
+		    		color:$paca-white;
+		    	}
+		    } 		        		
+    }
+
+    &.#{$paca-prefix}-button-orange{
+    		background-color:$paca-orange;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:darken($paca-orange,10%);
+		    	color:$paca-white;
+		    }
+		    &:focus{
+		    	color:$paca-white;    	
+		    }
+		    &:active{
+		    	color:$paca-white;    	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    }
+		    &.bordered{
+		    	color:$paca-orange;
+		    	border-color:$paca-orange;
+		    	&:hover{
+		    		color:$paca-white;
+		    	}
+		    } 		          		
+    }
+
+    &.#{$paca-prefix}-button-curious-blue{
+    		background-color:$paca-curious-blue;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:darken($paca-curious-blue,10%);
+		    	color:$paca-white;
+		    }
+		    &:focus{
+		    	color:$paca-white;    	
+		    }
+		    &:active{
+		    	color:$paca-white;    	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    }
+		    &.bordered{
+		    	color:$paca-curious-blue;
+		    	border-color:$paca-curious-blue;
+		    	&:hover{
+		    		color:$paca-white;
+		    	}
+		    } 		          		
+    }
+
+    &.#{$paca-prefix}-button-java{
+    		background-color:$paca-java;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:darken($paca-java,10%);
+		    	color:$paca-white;
+		    }
+		    &:focus{
+		    	color:$paca-white;    	
+		    }
+		    &:active{
+		    	color:$paca-white;    	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    }
+		    &.bordered{
+		    	color:$paca-java;
+		    	border-color:$paca-java;
+		    	&:hover{
+		    		color:$paca-white;
+		    	}
+		    } 		          		
+    }
+
+    &.#{$paca-prefix}-button-apple{
+    		background-color:$paca-apple;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:darken($paca-apple,10%);
+		    	color:$paca-white;
+		    }
+		    &:focus{
+		    	color:$paca-white;    	
+		    }
+		    &:active{
+		    	color:$paca-white;    	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    } 
+		    &.bordered{
+		    	color:$paca-apple;
+		    	border-color:$paca-apple;
+		    	&:hover{
+		    		color:$paca-white;
+		    	}
+		    }     		
+    }
+
+    &.#{$paca-prefix}-button-purple-heart{
+    		background-color:$paca-purple-heart;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:darken($paca-purple-heart,10%);
+		    	color:$paca-white;
+		    }
+		    &:focus{
+		    	color:$paca-white;    	
+		    }
+		    &:active{
+		    	color:$paca-white;    	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    }
+		    &.bordered{
+		    	color:$paca-purple-heart;
+		    	border-color:$paca-purple-heart;
+		    	&:hover{
+		    		color:$paca-white;
+		    	}
+		    } 		         		
+    }
+
+    &.#{$paca-prefix}-button-bright-sun{
+    		background-color:$paca-bright-sun;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:darken($paca-bright-sun,10%);
+		    	color:$paca-white;
+		    }
+		    &:focus{
+		    	color:$paca-white;   	
+		    }
+		    &:active{
+		    	color:$paca-white;   	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    }      		
+		    &.bordered{
+		    	color:$paca-bright-sun;
+		    	border-color:$paca-bright-sun;
+		    	&:hover{
+		    		color:$paca-white;
+		    	}
+		    } 
+    }
+
+    &.#{$paca-prefix}-button-grey{
+    		background-color:$paca-grey;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:darken($paca-grey,10%);
+		    	color:$paca-white;
+		    }
+		    &:focus{
+		    	color:$paca-white;   	
+		    }
+		    &:active{
+		    	color:$paca-white;  	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    }
+		    &.bordered{
+		    	color:$paca-grey;
+		    	border-color:$paca-grey;
+		    	&:hover{
+		    		color:$paca-white;
+		    	}
+		    } 		          		
+    }
+
+    &.#{$paca-prefix}-button-black{
+    		background-color:$paca-black;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:darken($paca-black,10%);
+		    	color:$paca-white;
+		    }
+		    &:focus{
+		    	color:$paca-white;   	
+		    }
+		    &:active{
+		    	color:$paca-white;  	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    }
+		    &.bordered{
+		    	color:$paca-black;
+		    	border-color:$paca-black;
+		    	&:hover{
+			    	background-color:$paca-black;
+			    	color:$paca-white;
+		    	}
+		    } 		          		
+    }
+    &.#{$paca-prefix}-button-white{
+    		background-color:$paca-white;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:$paca-white;
+		    	color:$paca-black;
+		    }
+		    &:focus{
+		    	color:$paca-white;   	
+		    }
+		    &:active{
+		    	color:$paca-white;  	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    }
+		    &.bordered{
+		    	color:$paca-white;
+		    	border-color:$paca-white;
+		    	&:hover{
+			    	background-color:$paca-white;
+			    	color:$paca-black;
+		    	}
+		    } 		          		
+    }
+    &.rounded{
+    	    border-radius: 30px;
+    }
+    &.bordered{
+    	background:0;
+    	margin: 0 6px 15px 0;
+	    border-width: 2px;
+	    border-style: solid;
+    }
+
+
+}
+
+
+
+

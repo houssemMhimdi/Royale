@@ -1,0 +1,78 @@
+.#{$paca-prefix}-carousel-wrap{
+	position:relative;
+	.#{$paca-prefix}-carousel-title{
+		h4{
+
+		}
+	}
+	.#{$paca-prefix}-carousel-items{
+
+		width:100%;
+		overflow:hidden;
+		.slick-arrow{
+			background: none;
+			position: absolute;
+			top: 0;
+			right: 0;
+			border: 1px solid $paca-grey;
+			color:$paca-grey;
+		    width: 30px;
+		    height: 30px;
+		    transition:.2s;	
+		    &:hover{
+				border-color: lighten($paca-grey, 5%);
+				color: lighten($paca-grey, 5%);
+		    }
+			&.slick-prev{
+				right:30px;
+				border-right-width: 0;
+			}
+			&.slick-next{
+
+			}
+			&.slick-disabled{
+				border-color: lighten($paca-grey, 10%);
+				color: lighten($paca-grey, 10%);
+			}		    		
+		}
+
+		.slick-dots{
+		    margin: 0;
+		    padding: 0;
+		    text-align: center;
+		    overflow: hidden;
+		    width: 100%;
+		    li{
+		    	display:inline-block;
+		    	button{
+				    font-size: 0;
+				    border: 0;
+				    margin: 4px;
+				    padding: 2px 8px;
+				    line-height: 0;
+				    background: $paca-grey;		    		
+		    	}
+		    	&.slick-active{
+			    	button{
+					    background: $paca-light-grey;		    		
+			    	}		    		
+		    	}
+		    }			
+		}
+		.slick-list {
+			
+			.slick-track {
+				opacity:1;
+				.item{
+					float:left;
+				}			
+			}
+		}
+
+	}
+}
+
+
+
+
+

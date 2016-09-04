@@ -1,0 +1,30 @@
+.#{$paca-prefix}-accordion{
+	.panel{
+		.panel-heading{
+			.panel-title{
+				a{
+					color:$paca-grey ;
+					display:block;
+					&:after{
+					    font: normal normal normal 14px/1 FontAwesome;
+					    font-size: inherit;
+					    text-rendering: auto;
+					    -webkit-font-smoothing: antialiased;
+					    -moz-osx-font-smoothing: grayscale;
+					    content: "\f068";
+					    float: right;
+
+					}
+					&.collapsed{
+						&:after{
+							content: "\f067" !important;
+						}
+					}
+					
+				}
+			}
+		}
+	}
+}
+
+

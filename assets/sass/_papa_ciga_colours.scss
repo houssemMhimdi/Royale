@@ -1,0 +1,79 @@
+
+
+$papa-ciga-red:    #ed1b2e;
+$papa-ciga-red-2:  #6d6e70;
+$papa-ciga-red-3:  #d7d7d8;
+$papa-ciga-red-4:  #b4a996;
+$papa-ciga-red-5:  #ecb731;
+$papa-ciga-red-6:  #8ec06c;
+$papa-ciga-red-7:  #537b35;
+$papa-ciga-red-8:  #c4dff6;
+$papa-ciga-red-9:  #56a0d3;
+$papa-ciga-red-10: #0091cd;
+$papa-ciga-red-11: #004b79;
+$papa-ciga-red-12: #7f181b;
+$papa-ciga-red-13: #d7d7d8;
+$papa-ciga-red-14: #9f9fa3;
+$papa-ciga-red-15: #000000;
+
+
+//Base Colours Variables
+$paca-black 		: rgb(0, 0, 0);
+$paca-red 			: rgb(204, 51, 51);
+$paca-white			: rgb(255, 255, 255);
+$paca-grey 			: rgb(158, 158, 158);
+$paca-light-grey	: rgb(224, 224, 224);
+$paca-orange		: rgb(255, 152, 0);
+$paca-curious-blue	: rgb(30, 136, 229);
+$paca-java			: rgb(30, 229, 203);
+$paca-apple			: rgb(67, 160, 71);
+$paca-bright-sun	: rgb(253, 216, 53);
+$paca-purple-heart	: rgb(90, 30, 229);
+
+
+
+
+//Social Colours Variables
+$paca-social-facebook: #3b5998;
+$paca-social-flickr: #ff0084;
+$paca-social-google-plus: #dd4b39;
+$paca-social-instagram: #517fa4;
+$paca-social-linkedin: #007bb6;
+$paca-social-pinterest: #cb2027;
+$paca-social-slideshare: #E87C18;
+$paca-social-twitter: #00aced;
+$paca-social-vimeo: #aad450;
+$paca-social-youtube: #bb0000;
+
+
+/*------------------------*\
+	Colours Classes List
+\*------------------------*/
+.#{$paca-prefix}-colour-black 		{color:$paca-black !important;			}
+.#{$paca-prefix}-colour-red 		{color:$paca-red  !important;			}
+.#{$paca-prefix}-colour-white		{color:$paca-white !important;			}
+.#{$paca-prefix}-colour-grey 		{color:$paca-grey !important;			}
+.#{$paca-prefix}-colour-light-grey	{color:$paca-light-grey !important;		}
+.#{$paca-prefix}-colour-orange		{color:$paca-orange !important;			}
+.#{$paca-prefix}-colour-curious-blue{color:$paca-curious-blue !important;	}
+.#{$paca-prefix}-colour-java		{color:$paca-java !important;			}
+.#{$paca-prefix}-colour-apple		{color:$paca-apple !important;			}
+.#{$paca-prefix}-colour-bright-sun	{color:$paca-bright-sun !important;		}
+.#{$paca-prefix}-colour-purple-heart{color:$paca-purple-heart !important;	}
+
+
+/*---------------------------------*\
+	Background Colours Classes List
+\*---------------------------------*/
+.#{$paca-prefix}-bj-colour-black 		{background-color:$paca-black !important;			}
+.#{$paca-prefix}-bj-colour-red 			{background-color:$paca-red !important;				}
+.#{$paca-prefix}-bj-colour-white		{background-color:$paca-white !important;			}
+.#{$paca-prefix}-bj-colour-grey 		{background-color:$paca-grey !important;			}
+.#{$paca-prefix}-bj-colour-light-grey	{background-color:$paca-light-grey !important;		}
+.#{$paca-prefix}-bj-colour-orange		{background-color:$paca-orange !important;			}
+.#{$paca-prefix}-bj-colour-curious-blue{background-color:$paca-curious-blue !important;		}
+.#{$paca-prefix}-bj-colour-java			{background-color:$paca-java !important;			}
+.#{$paca-prefix}-bj-colour-apple		{background-color:$paca-apple !important;			}
+.#{$paca-prefix}-bj-colour-bright-sun	{background-color:$paca-bright-sun !important;		}
+.#{$paca-prefix}-bj-colour-purple-heart	{background-color:$paca-purple-heart !important;	}
+

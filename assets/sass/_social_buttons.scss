@@ -1,0 +1,187 @@
+//Social Media Buttons
+.#{$paca-prefix}-social-button {
+    display: inline-block;
+    float: none;
+    width: 40px;
+    height: 40px;
+    color: grey;
+    transition: .4s;
+    overflow: hidden;
+    font-size: 22px;
+    line-height: 1.4;
+    &.large{
+    	font-size: 28px;
+	    width: 40px;
+	    height: 40px;
+	    .icon{
+	    	&:last-child{
+	    		top: -37px;
+	    	}
+	    } 	
+    	&.left,&.right{
+	    	.icon{
+	    		margin-top: 0%;
+	    		float:right;
+				&:first-child {
+				    top: 5px;
+				    left: 0%;
+				    color:black;
+				}
+				&:last-child {
+				    top: -22px;
+				    left: -100%;
+				    color:white;
+				}    		
+	    	}    		
+    	}
+    }
+    &.right{
+    	.icon{
+    		margin-top: 0%;
+    		float:left;
+			&:first-child {
+			    top: 10px;
+			    left: 0%;
+			    color:black;
+			}
+			&:last-child {
+			    top: -12px;
+			    left: 100%;
+			    color:white;
+			}    		
+    	}&:hover {
+		    background: rgb(128, 128, 128);
+		    color: white;
+		    .icon{
+				&:first-child {
+					left: -100%;
+				    margin-top: 0%;
+				    opacity: 0;
+				}
+				&:last-child {
+					left: 0%;
+				    margin-top: 0%;
+				    opacity: 1;
+				}
+
+		    }
+		}
+
+    }
+    &.left{
+    	.icon{
+    		margin-top: 0%;
+    		float:right;
+			&:first-child {
+			    top: 10px;
+			    left: 0%;
+			    color:black;
+			}
+			&:last-child {
+			    top: -12px;
+			    left: -100%;
+			    color:white;
+			}    		
+    	}&:hover {
+		    background: rgb(128, 128, 128);
+		    color: white;
+		    .icon{
+				&:first-child {
+					left: 100%;
+				    margin-top: 0%;
+				    opacity: 0;
+				}
+				&:last-child {
+					left: 0%;
+				    margin-top: 0%;
+				    opacity: 1;
+				}
+
+		    }
+		}
+
+    }
+    .icon{
+	    position: relative;
+	    margin-top: 60%;    	
+	    opacity: 1;
+	    width: 100%;
+	    text-align: center;
+	    overflow: hidden;
+	    transition: .3s;
+		&:first-child {
+		    top: -16px;
+		    color:black;
+		}
+		&:last-child {
+		    top: -26px;
+		    color:white;
+		}
+
+    }&:hover {
+	    background: rgb(128, 128, 128);
+	    color: white;
+	    .icon{
+			&:first-child {
+			    margin-top: -50%;
+			    opacity: 0;
+			}
+			&:last-child {
+			    margin-top: 10%;
+			    opacity: 1;
+			}
+
+	    }
+	}
+	&.facebook{
+		&:hover{
+			background-color:$paca-social-facebook;
+		}
+	}
+	&.twitter{
+		&:hover{
+			background-color:$paca-social-twitter;
+		}
+	}
+	&.youtube{
+		&:hover{
+			background-color:$paca-social-youtube;
+		}
+	}
+	&.flickr{
+		&:hover{
+			background-color:$paca-social-flickr;
+		}
+	}
+	&.google-plus{
+		&:hover{
+			background-color:$paca-social-google-plus;
+		}
+	}
+	&.instagram{
+		&:hover{
+			background-color:$paca-social-instagram;
+		}
+	}
+	&.linkedin{
+		&:hover{
+			background-color:$paca-social-linkedin;
+		}
+	}
+	&.pinterest{
+		&:hover{
+			background-color:$paca-social-pinterest;
+		}
+	}
+	&.slideshare{
+		&:hover{
+			background-color:$paca-social-slideshare;
+		}
+	}
+	&.vimeo{
+		&:hover{
+			background-color:$paca-social-vimeo;
+		}
+	}
+
+}

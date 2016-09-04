@@ -1,0 +1,16 @@
+.#{$paca-prefix}-boxed-wrap{
+
+	background-color:$paca-black;
+	
+	.#{$paca-prefix}-boxed-content{
+
+		padding:5%;
+		color:$paca-white;
+
+		img{
+			width:100%;
+			height:auto;
+		}
+	}	
+
+}
