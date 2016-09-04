@@ -1,30 +1,9 @@
 <?php get_header(); ?>
-<?php 
-	function _defautl_styles(){
-		?>
-			<style type="text/css">
-
-			body{
-				background: rgb(249, 249, 249);
-			}
-			a{
-				color:rgba(0, 0, 0,.7);
-			}	
-			a:hover{
-				color:rgba(0, 0, 0,.5);
-				text-decoration:none; 
-			}			
-			</style>
-		<?php
-	}
-
-	add_action('wp_footer','_defautl_styles');
-?>
 
 
-
-<div class="clearfix"></div>
 <?php get_template_part('parts/content','full-slider'); ?>
+
+
 <div class="clearfix"></div>
 
 
@@ -1011,16 +990,6 @@ echo "</div>";
 <?php get_template_part( 'nav', 'below' ); ?>
 </section>
 <?php get_sidebar(); ?> -->
-<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
-<script src="https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js"></script>
-<script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/lightgallery.js"></script>
-<script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/lg-fullscreen.js"></script>
-<script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/lg-thumbnail.js"></script>
-<script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/lg-video.js"></script>
-<script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/lg-autoplay.js"></script>
-<script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/lg-zoom.js"></script>
-<script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/lg-hash.js"></script>
-<script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/lg-pager.js"></script>
-<script src="<?php echo get_template_directory_uri() ?>/assets/javascripts/jquery.mousewheel.min.js"></script>
+
 
 <?php get_footer(); ?>

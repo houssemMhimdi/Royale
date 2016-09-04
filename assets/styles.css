@@ -11263,8 +11263,8 @@ button.close {
 
 @font-face {
   font-family: 'lg';
-  src: url("../assets/fonts/lg.eot?n1z373");
-  src: url("../assets/fonts/lg.eot?#iefixn1z373") format("embedded-opentype"), url("../assets/fonts/lg.woff?n1z373") format("woff"), url("../assets/fonts/lg.ttf?n1z373") format("truetype"), url("../assets/fonts/lg.svg?n1z373#lg") format("svg");
+  src: url("../assets/fonts/lightgallery/lg.eot?n1z373");
+  src: url("../assets/fonts/lightgallery/lg.eot?#iefixn1z373") format("embedded-opentype"), url("../assets/fonts/lightgallery/lg.woff?n1z373") format("woff"), url("../assets/fonts/lightgallery/lg.ttf?n1z373") format("truetype"), url("../assets/fonts/lightgallery/lg.svg?n1z373#lg") format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -12097,4 +12097,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 body {
   -webkit-font-smoothing: antialiased;
+  background: #f9f9f9;
+}
+
+a {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
 }

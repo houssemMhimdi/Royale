@@ -73,6 +73,47 @@
     		
 			wp_register_script('main', get_template_directory_uri() . '/assets/javascripts/main.js', array('jquery'), '1.0.0', true);
     		wp_enqueue_script('main'); // Enqueue it!
+    		
+			wp_register_script('lightgallery-js', get_template_directory_uri() . '/assets/javascripts/lightgallery.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('lightgallery-js'); // Enqueue it!
+    		
+			wp_register_script('lg-fullscreen', get_template_directory_uri() . '/assets/javascripts/lg-fullscreen.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('lg-fullscreen'); // Enqueue it!
+    		
+			wp_register_script('lg-thumbnail', get_template_directory_uri() . '/assets/javascripts/lg-thumbnail.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('lg-thumbnail'); // Enqueue it!
+    		
+			wp_register_script('lg-video', get_template_directory_uri() . '/assets/javascripts/lg-video.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('lg-video'); // Enqueue it!
+    		
+			wp_register_script('lg-autoplay', get_template_directory_uri() . '/assets/javascripts/lg-autoplay.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('lg-autoplay'); // Enqueue it!
+    		
+			wp_register_script('lg-zoom', get_template_directory_uri() . '/assets/javascripts/lg-zoom.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('lg-zoom'); // Enqueue it!
+    		
+			wp_register_script('lg-pager', get_template_directory_uri() . '/assets/javascripts/lg-pager.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('lg-pager'); // Enqueue it!
+    		
+			wp_register_script('mousewheel-min', get_template_directory_uri() . '/assets/javascripts/jquery.mousewheel.min.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('mousewheel-min'); // Enqueue it!
+    		
+			wp_register_script('masonry-pkgd', 'https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('masonry-pkgd'); // Enqueue it!
+
+			wp_register_script('masonry-pkgd', 'https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('masonry-pkgd'); // Enqueue it!
+
+			wp_register_script('picturefill-min', 'https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js', array('jquery'), '1.0.0', true);
+    		wp_enqueue_script('picturefill-min'); // Enqueue it!
+
+
+
+
+
+
+
+
 
 		}
 
@@ -130,23 +171,6 @@
 	}
 
 	PapaCiga::init();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
