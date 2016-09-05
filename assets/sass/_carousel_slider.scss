@@ -18,7 +18,7 @@
 			color:$paca-grey;
 		    width: 30px;
 		    height: 30px;
-		    transition:.2s;	
+		    @include transition(.2s);
 		    &:hover{
 				border-color: lighten($paca-grey, 5%);
 				color: lighten($paca-grey, 5%);

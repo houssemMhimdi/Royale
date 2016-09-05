@@ -1,9 +1,3 @@
-
-
-
-
-
-
 (function ($, root, undefined) {
 	
 	$(function () {
@@ -63,6 +57,28 @@
             	selector: '.icon-lightgallery',
             });
         });
+
+        //Progress bar.
+        $('.paca-progress-bar').each(function(){
+        	var score = $(this).find('.paca-progress-bar-front').attr('data-score');
+        	$(this).find('.paca-progress-bar-front').animate({
+        		'width':score+'%',
+        	},800);
+
+		    $(this).find('.paca-progress-bar-counter').prop('Counter',0).animate({
+		        Counter: score
+		    }, {
+		        duration: 4000,
+		        easing: 'swing',
+		        step: function (now) {
+		            $(this).text(Math.ceil(now));
+		        }
+		    });
+
+
+        });
+
+
 
 	});
 	

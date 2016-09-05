@@ -5,7 +5,7 @@
     width: 40px;
     height: 40px;
     color: grey;
-    transition: .4s;
+    @include transition(.4s);
     overflow: hidden;
     font-size: 22px;
     line-height: 1.4;
@@ -108,7 +108,7 @@
 	    width: 100%;
 	    text-align: center;
 	    overflow: hidden;
-	    transition: .3s;
+	    @include transition(.3s);
 		&:first-child {
 		    top: -16px;
 		    color:black;

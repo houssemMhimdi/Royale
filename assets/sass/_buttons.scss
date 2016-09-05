@@ -10,9 +10,7 @@
     padding: 15px 25px;
     margin: 0 10px 15px 0;
     font-weight: normal;
-    -webkit-transition: all .3s ease-out;
-    -moz-transition: all .3s ease-out;
-    transition: all .3s ease-out;
+    @include transition(all .3s ease-out);
     border: 0;
     position: relative;
     outline: 0;
@@ -53,53 +51,53 @@
     	font-weight: 200;
 	}&.hover-right{
 		span.text{
-		    transform: translate(10px);
+		    @include transform(translate(10px));
 		    display: inline-block;
-		    transition: 0.2s;			
+		    @include transition(0.2s);			
 		}
 		.#{$paca-prefix}-icon {
-		    transform: translate(-10px) scale(0);
+		    @include transform(translate(-10px) scale(0));
 		    opacity:0;
-		    transition: 0.2s;
+		    @include transition(0.2s);
 		    margin: 0 2px;
 		}
 		&:hover{
 			span.text {
-			    transform: translate(0px) scale(1);
-			    transition: 0.2s;
+			    @include transform(translate(0px) scale(1));
+			    @include transition(0.2s);
 			}
 
 
 			.#{$paca-prefix}-icon  {
-			    transform: translate(0px) scale(1);
+			    @include transform(translate(0px) scale(1));
 			    opacity:1;
-			    transition: 0.2s;
+			    @include transition(0.2s);
 			}
 
 		}
 	}&.hover-left{
 		span.text{
-		    transform: translate(-10px);
+		    @include transform(translate(-10px));
 		    display: inline-block;
-		    transition: 0.2s;			
+		    @include transition(0.2s);		
 		}
 		.#{$paca-prefix}-icon {
-		    transform: translate(10px) scale(0);
+		    @include transform(translate(10px) scale(0));
 		    opacity:0;
-		    transition: 0.2s;
+		    @include transition(0.2s);
 		    margin: 0 2px;
 		}
 		&:hover{
 			span.text {
-			    transform: translate(0px) scale(1);
-			    transition: 0.2s;
+			    @include transform(translate(0px) scale(1));
+			    @include transition(0.2s);
 			}
 
 
 			.#{$paca-prefix}-icon  {
-			    transform: translate(0px) scale(1);
+			    @include transform(translate(0px) scale(1));
 			    opacity:1;
-			    transition: 0.2s;
+			    @include transition(0.2s);
 			}
 
 		}

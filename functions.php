@@ -31,6 +31,7 @@
 			add_action( 'wp_title', array(__CLASS__, 'papaciga_filter_wp_title') );
 			add_action( 'widgets_init', array(__CLASS__, 'papaciga_widgets_init') );
 			add_action( 'get_comments_number', array(__CLASS__, 'papaciga_comments_number') );
+			add_action( 'init', array(__CLASS__, 'papaciga_include_files') , 1 );
 
 		}
 
@@ -107,14 +108,6 @@
 			wp_register_script('picturefill-min', 'https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js', array('jquery'), '1.0.0', true);
     		wp_enqueue_script('picturefill-min'); // Enqueue it!
 
-
-
-
-
-
-
-
-
 		}
 
 		static function papaciga_setup(){
@@ -165,6 +158,13 @@
 			} else {
 				return $count;
 			}
+		}
+
+		/**
+		 * Include files
+		 */
+		static function papaciga_include_files(){
+			include 'classes/nav-walker.php';
 		}
 
 
