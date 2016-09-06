@@ -99,10 +99,10 @@
 			wp_register_script('mousewheel-min', get_template_directory_uri() . '/assets/javascripts/jquery.mousewheel.min.js', array('jquery'), '1.0.0', true);
     		wp_enqueue_script('mousewheel-min'); // Enqueue it!
     		
-			wp_register_script('masonry-pkgd', 'https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js', array('jquery'), '1.0.0', true);
+			wp_register_script('masonry-pkgd', 'https://unpkg.com/masonry-layout@4.0/dist/masonry.pkgd.min.js', array('jquery'), '1.0.0', true);
     		wp_enqueue_script('masonry-pkgd'); // Enqueue it!
 
-			wp_register_script('masonry-pkgd', 'https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js', array('jquery'), '1.0.0', true);
+			wp_register_script('masonry-pkgd', 'https://unpkg.com/masonry-layout@4.0/dist/masonry.pkgd.min.js', array('jquery'), '1.0.0', true);
     		wp_enqueue_script('masonry-pkgd'); // Enqueue it!
 
 			wp_register_script('picturefill-min', 'https://cdn.jsdelivr.net/picturefill/2.3.1/picturefill.min.js', array('jquery'), '1.0.0', true);
