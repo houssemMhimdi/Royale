@@ -1,0 +1,63 @@
+/*-----------------------*\
+		portfolio
+\*-----------------------*/
+
+.#{$paca-prefix}-portfolio {
+	width:98%;
+    margin-right: 0% !important;
+    margin-bottom: 2% !important;
+	.figure-wrapper {
+	    overflow: hidden;
+		figure {
+			img {
+				@include transform(scale(1));
+				@include transition(all 1s ease-in);
+			}	
+		}
+		figcaption {
+		    background: -moz-linear-gradient(top,  rgba(0,0,0,0) 0%, rgba(0,0,0,0.65) 58%, rgba(0,0,0,0.65) 98%, rgba(0,0,0,0.65) 100%)  !important;
+		    background: -webkit-linear-gradient(top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 58%,rgba(0,0,0,0.65) 98%,rgba(0,0,0,0.65) 100%)  !important;
+		    background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgba(0,0,0,0.65) 58%,rgba(0,0,0,0.65) 98%,rgba(0,0,0,0.65) 100%)  !important;
+		    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 )  !important;
+		    @include transform(translateY(100%));
+
+		    .post-info-centre{
+		    	align-items: flex-end !important;
+		    	a{
+		    		color:white;
+		    	}
+		    }		    
+		}		
+		&:hover{
+			figure {
+				img {
+				    @include transform(scale(2));
+				    @include transition(all 10s cubic-bezier(0.33, 0.19, 0.44, 0.66));
+				}	
+			}
+			figcaption{
+			    @include transform(translateY(0%));
+			}
+		}   
+	}
+
+}
+
+
+@media all and (min-width:768px){
+	.portfolio-one-col{
+		width:98%;	
+	}
+	.portfolio-two-col{
+		width:48%;
+	}
+	.portfolio-three-col{
+		width:31%;
+	}
+	.portfolio-four-col{
+		width:23%;
+	}
+	.portfolio-five-col{
+		width:18%;
+	}	
+}

@@ -51,6 +51,12 @@
 		$('.masonry-grid').masonry({
 		  itemSelector: '.masonry-grid-item',
 		  columnWidth: '.masonry-grid-item',
+		});	
+
+		$('.masonry-grid-portfolio').masonry({
+		  itemSelector: '.masonry-grid-item',
+		  columnWidth: '.masonry-grid-item',
+		  gutter: 20,
 		});		
         $(document).ready(function(){
             $('.lightgallery').lightGallery({

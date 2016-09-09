@@ -10,7 +10,7 @@ $button_text = array('watch the video','read more','learn more','click here');
 
 ?>
 
-<ul class="paca-slider papacig_slider" data-slick='{"infinite":false,"dots":true,"duration":3000,"autoplay":true}' style="display:none;">
+<ul class="paca-slider papacig_slider" data-slick='{"infinite":true,"dots":true,"duration":3000,"autoplay":true}' style="display:none;">
 	<?php $i=0; while($i <= 4){ ?>
 	<li>
 		<div class="wrap">

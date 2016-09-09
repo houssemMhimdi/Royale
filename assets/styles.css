@@ -11121,6 +11121,83 @@ button.close {
   float: left;
 }
 
+/*-----------------------*\
+		portfolio
+\*-----------------------*/
+.paca-portfolio {
+  width: 98%;
+  margin-right: 0% !important;
+  margin-bottom: 2% !important;
+}
+.paca-portfolio .figure-wrapper {
+  overflow: hidden;
+}
+.paca-portfolio .figure-wrapper figure img {
+  -o-transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 1s ease-in;
+  -o-transition: all 1s ease-in;
+  transition: all 1s ease-in;
+}
+.paca-portfolio .figure-wrapper figcaption {
+  background: -moz-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 58%, rgba(0, 0, 0, 0.65) 98%, rgba(0, 0, 0, 0.65) 100%) !important;
+  background: -webkit-linear-gradient(top, transparent 0%, rgba(0, 0, 0, 0.65) 58%, rgba(0, 0, 0, 0.65) 98%, rgba(0, 0, 0, 0.65) 100%) !important;
+  background: linear-gradient(to bottom, transparent 0%, rgba(0, 0, 0, 0.65) 58%, rgba(0, 0, 0, 0.65) 98%, rgba(0, 0, 0, 0.65) 100%) !important;
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#a6000000',GradientType=0 ) !important;
+  -o-transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+  -moz-transform: translateY(100%);
+  -ms-transform: translateY(100%);
+  transform: translateY(100%);
+}
+.paca-portfolio .figure-wrapper figcaption .post-info-centre {
+  align-items: flex-end !important;
+}
+.paca-portfolio .figure-wrapper figcaption .post-info-centre a {
+  color: white;
+}
+.paca-portfolio .figure-wrapper:hover figure img {
+  -o-transform: scale(2);
+  -webkit-transform: scale(2);
+  -moz-transform: scale(2);
+  -ms-transform: scale(2);
+  transform: scale(2);
+  -webkit-transition: all 10s cubic-bezier(0.33, 0.19, 0.44, 0.66);
+  -o-transition: all 10s cubic-bezier(0.33, 0.19, 0.44, 0.66);
+  transition: all 10s cubic-bezier(0.33, 0.19, 0.44, 0.66);
+}
+.paca-portfolio .figure-wrapper:hover figcaption {
+  -o-transform: translateY(0%);
+  -webkit-transform: translateY(0%);
+  -moz-transform: translateY(0%);
+  -ms-transform: translateY(0%);
+  transform: translateY(0%);
+}
+
+@media all and (min-width: 768px) {
+  .portfolio-one-col {
+    width: 98%;
+  }
+
+  .portfolio-two-col {
+    width: 48%;
+  }
+
+  .portfolio-three-col {
+    width: 31%;
+  }
+
+  .portfolio-four-col {
+    width: 23%;
+  }
+
+  .portfolio-five-col {
+    width: 18%;
+  }
+}
 .paca-standard-grid {
   position: relative;
   margin-top: 20px;
