@@ -84,6 +84,18 @@
 
         });
 
+        //Move down to next block.
+        $('.paca-cursor-down .fa').click(function(){
+        	var next = $(this).parents('.paca-full-height').next();
+        	var speed = $(this).data('speed');
+			$('html, body').animate({
+				scrollTop: $(next).offset().top
+			}, speed);
+
+
+
+
+        });
 
 
 	});

@@ -1,10 +1,12 @@
-$theme_name: "PapaCiga";
+$theme_name: "Royal";
 $theme_uri: "#";
 $theme_description: "Description here";
 $theme_version: "1.0.0";
 $theme_author: "Jason Van Hil";
 $theme_author_uri: "#";
-$theme_license: "";
+$theme_tags: "one-column, two-columns, right-sidebar, editor-style, featured-images, microformats, post-formats, translation-ready";
+$theme_license: "#";
+$theme_license_url: "#";
 
 
 $paca-prefix : paca;
@@ -25,4 +27,20 @@ $paca-prefix : paca;
     -moz-transform:    $transform;
     -ms-transform:     $transform;
     transform:         $transform;
+}
+
+@mixin keyframes($name) {
+  @-webkit-keyframes $name { @content; }
+  @-moz-keyframes $name { @content; }
+  @-ms-keyframes $name { @content; }
+  @keyframes $name { @content; }
+}
+
+
+@mixin animation($name) {
+    -o-transform:      $animation;
+    -webkit-transform: $animation;
+    -moz-transform:    $animation;
+    -ms-transform:     $animation;
+    transform:         $animation;
 }

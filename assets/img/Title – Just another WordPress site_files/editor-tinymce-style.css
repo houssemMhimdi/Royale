@@ -1,0 +1,406 @@
+.TCH-community-editor #wp-questions_editor-editor-container, .TCH-community-editor #wp-answers_editor-wrap{
+    border-left: 1px solid rgb(197, 197, 197) !important;
+    border-right: 1px solid rgb(197, 197, 197) !important;
+    border-bottom: 1px solid rgb(197, 197, 197) !important;
+    margin: 20px auto !important;
+}
+
+.TCH-community-editor .mce-toolbar-grp {
+    border-top: 1px solid rgb(197, 197, 197) !important;
+    border-bottom: 1px solid rgb(197, 197, 197) !important;
+    background: white !important;
+}
+
+.TCH-community-editor .mce-statusbar {
+    display: none !important;
+}
+
+
+
+.TCH-community-editor {
+    overflow: hidden;
+}
+
+
+.TCH-community-editor .TCH-form-notification {}
+
+.TCH-community-editor .TCH-form-notification .TCH-error-form {}
+
+.TCH-community-editor .TCH-form-notification .TCH-error-form p {
+    margin: 5px 0;
+    padding: 10px 10px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(175, 87, 87);
+}
+
+
+.TCH-community-editor .TCH-community-title-input {}
+
+.TCH-community-editor .TCH-community-title-input input.TCH-title {
+    width: 100%;
+    margin: 10px auto;
+    padding: 10px 10px;
+    border: 1px solid #C5C5C5;
+    font-weight: 400;
+    font-size: 22px;
+    color: rgb(87, 87, 87);
+    box-sizing: border-box;
+    outline: none;
+}
+
+.TCH-community-editor .TCH-community-select-wrapper{
+    margin: 20px 0;
+    padding: 0 0;
+}
+.TCH-community-editor .TCH-community-select-wrapper .THC-commnity-title{
+    margin: 5px 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.TCH-community-editor .TCH-community-select-wrapper .TCH-community-select {
+    width: 100%;
+    position: relative;
+    border: 1px solid #C5C5C5;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.TCH-community-editor .TCH-community-select-wrapper .TCH-community-select select {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background: white;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 0px;
+    padding: 0px 20px;
+    color: grey;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.TCH-community-editor .TCH-community-select-wrapper .TCH-community-select:before {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Glyphicons Halflings';
+    content: "\e259";
+    background: white;
+    height: 100%;
+    width: 30px;
+    line-height: 35px;
+    text-align: center;
+    z-index: 1;
+}
+.TCH-community-editor .TCH-community-tags-wrapper {}
+
+.TCH-community-editor .TCH-community-tags-wrapper .THC-commnity-title {
+    margin: 5px 0;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.TCH-community-editor .TCH-community-tags-wrapper input.TCH-tags {
+    width: 70%;
+    height: 40px;
+    font-size: 14px;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 0 10px;
+    display: inline-block;
+    outline: none;
+}
+
+.TCH-community-editor .TCH-community-tags-wrapper button.question-tags-button {
+    text-align: center;
+    text-transform: uppercase;
+    border: 0;
+    background: rgb(104, 170, 253);
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    width: 20%;
+    max-width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 5px 0px;
+    cursor: pointer;
+}
+.TCH-community-editor .TCH-community-tags-wrapper .TCH-community-tags-stripper {
+    margin: 20px 0;
+    padding: 0;
+}
+
+.TCH-community-editor .TCH-community-tags-wrapper .TCH-community-tags-stripper span.TCH-tag {
+    border: 1px solid rgb(204, 204, 204);
+    color: rgb(164, 189, 218);
+    margin: 5px 2px;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.TCH-community-editor .TCH-community-tags-wrapper .TCH-community-tags-stripper span.TCH-tag span.tag-remover {
+    font-size: 0;
+    color: rgb(204, 204, 204);
+    position: relative;
+    top: -5px;
+    right: -4px;
+    cursor: pointer;
+}
+
+.TCH-community-editor .TCH-community-tags-wrapper .TCH-community-tags-stripper span.TCH-tag span.tag-remover:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e014";
+    font-size: 10px;
+}
+
+.TCH-community-editor .TCH-community-tags-wrapper .TCH-community-tags-stripper span.TCH-tag span.tag-remover:hover {
+    color: rgb(197, 104, 104);
+}
+.TCH-community-editor .TCH-community-tags-wrapper .TCH-community-tags-stripper .TCH-community-tags-clean {
+    overflow: hidden;
+    display: table;
+    margin: 5px 0;
+    font-size: 14px;
+    color: rgb(128, 128, 128);
+    cursor: pointer;
+}
+
+.TCH-community-editor .TCH-community-tags-wrapper .TCH-community-tags-stripper .TCH-community-tags-clean:hover {
+    color: rgb(193, 86, 86);
+}
+.TCH-community-editor .submit-question-wrapper {
+    overflow:hidden;
+    font-size: 12px;
+}
+
+.TCH-community-editor .submit-question-wrapper button#submit-question-btn {
+    width: 100%;
+    border: 0;
+    margin: 30px 0;
+    padding: 20px 10px;
+    background: rgb(104, 170, 253);
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 150px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.TCH-community-editor .submit-question-wrapper button#submit-question-btn:hover {
+    background: rgb(39, 103, 183);
+}
+
+
+
+.TCH-community-editor-preview.TCH-preview-question {
+    background: rgb(249, 249, 249);
+    box-sizing: border-box;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgb(222, 222, 222);
+}
+
+.TCH-community-editor-preview.TCH-preview-question .TCH-community-title {
+    margin: 10px 0;
+}
+
+.TCH-community-editor-preview.TCH-preview-question .TCH-community-title h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.TCH-community-editor-preview.TCH-preview-question .TCH-community-meta {
+    font-size: 12px;
+    color: grey;
+    margin: 10px 0;
+}
+
+.TCH-community-editor-preview.TCH-preview-question .TCH-community-meta span.date {}
+
+.TCH-community-editor-preview.TCH-preview-question .TCH-community-meta img {
+    width: 30px;
+    border-radius: 100%;
+    vertical-align: middle;
+    margin: 0 10px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.TCH-community-editor-preview.TCH-preview-question .TCH-community-meta span.author-name {}
+
+.TCH-community-editor-preview.TCH-preview-question .TCH-community-meta span.follow {
+    cursor: pointer;
+    color: #A7A7A7;
+}
+
+.TCH-community-editor-preview.TCH-preview-question .TCH-community-content {
+    font-size: 14px;
+}
+
+.TCH-community-editor-preview.TCH-preview-question .TCH-community-tags {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+.TCH-community-editor-preview.TCH-preview-question .TCH-community-tags .tag {
+    background: rgb(198, 198, 198);
+    color: white;
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 4px 8px;
+    border: 1px solid white;
+    display: inline;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.TCH-community-report {
+    display: inline-block;
+    text-align: right;
+    float: right;
+    font-size: 12px;
+    color: grey;
+    cursor: pointer;
+}
+.TCH-community-report:before {
+    font-family: 'Glyphicons Halflings';
+    content: "\e034";
+}
+.TCH-community-editor-preview.TCH-preview-question .top {
+    overflow:hidden;
+}
+
+.TCH-community-editor-preview.TCH-preview-question .bottom {
+    overflow: hidden;
+}
+
+
+.community_tags_bundles_dropdown {
+    background: rgb(255, 255, 255);
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+}
+
+.community_tags_bundles_dropdown a {
+    width: 100%;
+    max-width: 400px;
+    display: block;
+    border: 1px solid rgb(204, 204, 204);
+    box-sizing: border-box;
+    margin: 0 0;
+    padding: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.community_tags_bundles_dropdown a:hover {
+    background: #FFF4E0;
+}
+.community_tags_bundles_dropdown a h4 {
+    font-size: 14px;
+    text-transform: capitalize;
+    border-left: 2px solid rgb(50, 55, 60);
+    color: rgb(49, 112, 143);
+    box-sizing: border-box;
+    margin: 0 0 3px;
+    padding: 0px 2px;
+}
+
+.community_tags_bundles_dropdown a p {
+    font-size: 12px;
+    color: rgb(123, 123, 123);
+}
+.ui-helper-hidden-accessible{display: none;}
+
+
+
+#hannibal_community_checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  position: relative;
+  top: 5px;
+  width: 20px;
+  height: 20px;
+  -webkit-transition: all 0.15s ease-out 0;
+  -moz-transition: all 0.15s ease-out 0;
+  transition: all 0.15s ease-out 0;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  margin-right: 0.5rem;
+  z-index: 1000;
+  border-radius: 100%;
+}
+
+#hannibal_community_checkbox:hover { background: #9faab7; outline:none;}
+
+#hannibal_community_checkbox:checked {background: #68AAFD; outline:none;}
+
+#hannibal_community_checkbox:checked::before {
+  outline:none;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  content: '\2715';
+  display: inline-block;
+  font-size: 12px;
+  text-align: center;
+  line-height: 20px;
+}
+
+#hannibal_community_checkbox:checked::after {
+  background: #68AAFD;
+  content: '';
+  display: block;
+  position: relative;
+  z-index: 100;
+  outline:none;
+}
+
+.TCH-community-editor {}
+
+.TCH-community-editor .submit-answer-wrapper {
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.TCH-community-editor .submit-answer-wrapper button{
+    width: 100%;
+    border: 0;
+    margin: 30px 0;
+    padding: 20px 2px;
+    background: rgb(104, 170, 253);
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    max-width: 150px;
+    box-sizing: border-box;
+    outline: none;
+    cursor: pointer;
+    transition: 0.2s;
+}

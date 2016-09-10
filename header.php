@@ -10,27 +10,31 @@
 	<body <?php body_class(); ?>>
 	<div id="wrapper" class="hfeed">
 		<header id="header" role="banner">
-
-			<nav id="menu" role="navigation" class="navbar papaciga">
-				<?php 
-
-
-
-					wp_nav_menu( array(
-						'menu'              => 'primary',
-						'theme_location'    => 'primary',
-						'depth'             => 2,
-						'container'         => 'div',
-						'container_class'   => 'collapse navbar-collapse',
-						'container_id'      => 'bs-example-navbar-collapse-1',
-						'menu_class'        => 'nav navbar-nav',
-						'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
-						'walker'            => new wp_bootstrap_navwalker())
-					);
+		
+			<div class="top-navigation-bar">
+			
+				<nav id="menu" role="navigation" class="navbar paca-primary-navbar">
+					<?php 
 
 
-				?>
-			</nav>
+
+						wp_nav_menu( array(
+							'menu'              => 'primary',
+							'theme_location'    => 'primary',
+							'depth'             => 2,
+							'container'         => 'div',
+							'container_class'   => 'collapse navbar-collapse',
+							'container_id'      => 'bs-example-navbar-collapse-1',
+							'menu_class'        => 'nav navbar-nav',
+							'fallback_cb'       => 'wp_bootstrap_navwalker::fallback',
+							'walker'            => new wp_bootstrap_navwalker())
+						);
+
+
+					?>
+				</nav>
+
+			</div>
 
 		</header>
 		<div id="container">
