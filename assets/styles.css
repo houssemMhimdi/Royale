@@ -1,15 +1,4 @@
 @charset "UTF-8";
-/*!
-Theme Name: Royal
-Theme URI: #
-Description: Description here
-Version: 1.0.0
-Author: Jason Van Hil
-Author URI: #
-Tags: one-column, two-columns, right-sidebar, editor-style, featured-images, microformats, post-formats, translation-ready
-License: #
-License URI: #
-*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -10352,7 +10341,7 @@ button.close {
   top: 0;
   left: 0;
   margin: 0;
-  z-index: 9999;
+  z-index: 1010;
   background: rgba(255, 255, 255, 0);
   width: 100%;
   border-radius: 0;
@@ -12391,6 +12380,79 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     transform: translateY(10px);
   }
 }
+.paca-standard-card {
+  margin: auto auto 35px auto;
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner {
+  display: inline-block;
+  cursor: pointer;
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner .title {
+  margin: 5px 0;
+  transform: translateY(0);
+  opacity: 1;
+  transition: .3s;
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner .paca-learn-more-btn {
+  transition: .2s;
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner .paca-learn-more-btn-x {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  display: inline-block;
+  background: #333333;
+  border-radius: 100%;
+  transition: .4s;
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner .paca-learn-more-btn-x:after, .paca-standard-card .paca-card-button .paca-card-button-inner .paca-learn-more-btn-x:before {
+  content: ' ';
+  width: 20px;
+  height: 2px;
+  background: #f9f9f9;
+  display: block;
+  position: relative;
+  top: 12px;
+  left: 5px;
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner .paca-learn-more-btn-x:after {
+  transform: scale(0.8);
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner .paca-learn-more-btn-x:before {
+  transform: rotate(90deg) scale(0.8) translateX(2.5px);
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner.active {
+  opacity: .8;
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner.active .title {
+  transform: translateY(-25px);
+  opacity: 0;
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner.active .paca-learn-more-btn {
+  transform: translateY(40px);
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner.active .paca-learn-more-btn-x {
+  transform: rotate(45deg) scale(0.8);
+  transition: .4s;
+}
+.paca-standard-card .paca-card-button .paca-card-button-inner:hover {
+  opacity: .8;
+}
+.paca-standard-card .paca-card-contents {
+  opacity: 0;
+  overflow: hidden;
+  background: white;
+}
+.paca-standard-card .paca-card-contents.active {
+  opacity: 1;
+}
+.paca-standard-card .paca-card-contents .paca-card-inner {
+  width: 100%;
+  box-sizing: border-box;
+  margin: auto;
+  padding: 50px 15px;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   background: #f9f9f9;

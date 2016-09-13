@@ -1,0 +1,153 @@
+
+.paca-standard-card{
+	margin: auto auto 35px auto;
+	.paca-card-button{
+		.paca-card-button-inner {
+			display: inline-block;
+			cursor: pointer;
+			.title {
+			    margin: 5px 0;
+			    transform: translateY(0);
+			    opacity: 1;
+			    transition: .3s;
+			}
+
+			.paca-learn-more-btn {
+			    transition: .2s;
+			}
+			.paca-learn-more-btn-x {
+				position: relative;
+			    width: 30px;
+			    height: 30px;
+			    display: inline-block;
+			    background: rgb(51, 51, 51);
+			    border-radius: 100%;
+			    transition:.4s;
+				&:after, &:before{
+					content:' ';
+					width: 20px;
+					height: 2px;
+					background: rgb(249, 249, 249);
+					display: block;
+					position: relative;
+					top: 12px;
+					left: 5px;						
+				}
+				&:after{
+					transform: scale(.8);
+				}
+				&:before{
+					transform: rotate(90deg) scale(.8) translateX(2.5px);
+				}							    
+			}
+			&.active{
+				opacity: .8;
+				.title {
+				    transform: translateY(-25px);
+				    opacity: 0;
+				}
+				.paca-learn-more-btn {
+				    transform: translateY(40px);
+				}
+				.paca-learn-more-btn-x{
+					transform: rotate(45deg) scale(.8);
+					transition:.4s;
+				}						
+			}			
+			&:hover {
+				opacity: .8;
+			}
+		}
+
+	}
+
+	.paca-card-contents {
+
+	    opacity: 0;
+	    overflow: hidden;
+	    background: white;
+		&.active {
+		    opacity: 1;
+		}
+		.paca-card-inner {
+		    width: 100%;
+		    box-sizing: border-box;
+		    margin: auto;
+		    padding: 50px 15px;
+		}
+
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

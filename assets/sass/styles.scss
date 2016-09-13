@@ -1,15 +1,5 @@
 @import "vars";
-/*!
-Theme Name: #{$theme_name}
-Theme URI: #{$theme_uri}
-Description: #{$theme_description}
-Version: #{$theme_version}
-Author: #{$theme_author}
-Author URI: #{$theme_author_uri}
-Tags: #{$theme_tags}
-License: #{$theme_license}
-License URI: #{$theme_license_url}
-*/
+
 @import "screen";
 
 @import "print";
@@ -51,6 +41,8 @@ License URI: #{$theme_license_url}
 @import "progress-bar";
 
 @import "pace-cursor-down";
+
+@import "cards";
 
 
 
