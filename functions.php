@@ -4,6 +4,7 @@
 	 *  Author URI: #
 	 *  Text Domain: papa-ciga
 	 */
+	include('vc/init.php');
 	if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 
@@ -171,8 +172,6 @@
 	}
 
 	PapaCiga::init();
-
-
 
 
 
