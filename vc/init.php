@@ -29,6 +29,7 @@ if(!class_exists('Paca_Shortcodes')) :
 				'container' => 'paca_container.php',
 				'full-screen-slider' => 'paca_full_screen_sliders.php',
 				'paca-button' => 'paca_button.php',
+				'paca-boxed-content' => 'paca_boxed_content.php',
 			);
 
 			foreach( $shortcodes as $shortcode ) :

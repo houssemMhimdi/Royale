@@ -13,7 +13,7 @@
 		
 			<div class="top-navigation-bar">
 			
-<!-- 				<nav id="menu" role="navigation" class="navbar paca-primary-navbar">
+ 				<nav id="menu" role="navigation" class="navbar paca-primary-navbar">
 					<?php 
 
 
@@ -32,7 +32,7 @@
 
 
 					?>
-				</nav> -->
+				</nav>
 
 			</div>
 

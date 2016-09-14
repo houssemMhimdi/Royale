@@ -11,7 +11,8 @@
 if ( ! defined( 'ABSPATH' ) )  die( '-1' );
 
 $button_title = $button_url = $button_icon_status = $button_icon = $btn_shape = $btn_size = $btn_colour = $btn_hover = $el_class = $css_class = '';
-$atts = vc_map_get_attributes( $this->getShortcode(), $atts ); 
+$atts = vc_map_get_attributes( $this->getShortcode(), $atts );
+ 
 $button_title		= (isset($atts['button_title']) && !empty($atts['button_title']) ? esc_attr($atts['button_title']) : ''  );
 $button_url			= (isset($atts['button_url']) && !empty($atts['button_url']) ? vc_build_link($atts['button_url']) : ''  );
 $button_icon_status	= (isset($atts['button_icon_status']) && !empty($atts['button_icon_status']) ? esc_attr($atts['button_icon_status']) : ''  );
