@@ -10514,6 +10514,10 @@ button.close {
   display: none;
 }
 
+.paca-centred-btn-wrap {
+  text-align: center;
+}
+
 .paca-button {
   background-image: none;
   background-color: #e0e0e0;

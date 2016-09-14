@@ -4,7 +4,6 @@
 	 *  Author URI: #
 	 *  Text Domain: papa-ciga
 	 */
-	include('vc/init.php');
 	if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
 
@@ -39,6 +38,8 @@
 		static function require_files(){
 
 			//require_once('core/customiser.php');
+			require_once('vc/init.php');
+
 			
 		}
 
@@ -174,12 +175,59 @@
 	PapaCiga::init();
 
 
+	function paca_buttons_shapes(){
+
+		$list = array(
+					__( 'Normal', 'js_composer' ) 			=> 'normal',
+					__( 'Bordered', 'js_composer' ) 		=> 'bordered',
+					__( 'Rounded', 'js_composer' ) 			=> 'rounded',
+					__( 'Rounded Bordered', 'js_composer' ) => 'rounded-bordered',
+				);
+		return $list;
+
+	}
+
+	function paca_buttons_sizes(){
+
+		$list = array(
+					__( 'Normal', 'js_composer' ) 				=> 'normal',
+					__( 'Medium', 'js_composer' ) 				=> 'medium',
+					__( 'Large', 'js_composer' ) 				=> 'large',
+					__( 'Extra Large Bordered', 'js_composer' ) => 'x-large',
+					__( 'Full Width', 'js_composer' ) 			=> 'full-width',
+				);
+		return $list;
+
+	}
+
+	function paca_buttons_colours(){
+
+		$list = array(
+					__( 'Normal', 'js_composer' ) 			=> 'normal',
+					__( 'Apple', 'js_composer' ) 			=> 'paca-button-apple',
+					__( 'Black', 'js_composer' ) 			=> 'paca-button-black',
+					__( 'Bright Sun', 'js_composer' ) 		=> 'paca-button-bright-sun',
+					__( 'Curious Blue', 'js_composer' ) 	=> 'paca-button-curious-blue',
+					__( 'Grey', 'js_composer' ) 			=> 'paca-button-grey',
+					__( 'Java', 'js_composer' ) 			=> 'paca-button-java',
+					__( 'Orange', 'js_composer' ) 			=> 'paca-button-orange',
+					__( 'Purple Heart', 'js_composer' ) 	=> 'paca-button-purple-heart',
+					__( 'Red', 'js_composer' ) 				=> 'paca-button-red',
+				);
+		return $list;
+
+	}
 
 
+	function paca_buttons_hover(){
 
+		$list = array(
+					__( 'Hover Left', 'js_composer' ) 			=> 'hover-left',
+					__( 'Hover Right', 'js_composer' ) 			=> 'hover-right',
+				);
+		return $list;
 
-
-
+	}
 
 
 

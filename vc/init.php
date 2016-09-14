@@ -26,7 +26,9 @@ if(!class_exists('Paca_Shortcodes')) :
 		public static function declare_shortcodes(){
 
 			$shortcodes = array(
-				'custom-button' => 'ps_buttons.php',
+				'container' => 'paca_container.php',
+				'full-screen-slider' => 'paca_full_screen_sliders.php',
+				'paca-button' => 'paca_button.php',
 			);
 
 			foreach( $shortcodes as $shortcode ) :
@@ -51,6 +53,7 @@ if(!class_exists('Paca_Shortcodes')) :
 
 					self::add_actions();
 					require_once(PS_PATH . 	'config/setup.php');
+					require_once(PS_PATH . 	'config/custon_paramaters.php');
 					self::declare_shortcodes();
 				}
 
@@ -72,10 +75,15 @@ if(!class_exists('Paca_Shortcodes')) :
 		}
 
 		public static function add_actions(){
-
+					add_action( 'admin_enqueue_scripts', array(__CLASS__,'load_custom_wp_admin_style') );
 
 		}
-
+		
+		public static function load_custom_wp_admin_style() {
+		        wp_register_style( 'paca_wp_admin_css', get_template_directory_uri() . '/vc/assets/css/admin/admin-style.css', false, '1.0.0' );
+		        wp_enqueue_script( 'my_custom_script', get_template_directory_uri() . '/vc/assets/js/admin/admin-script.js' );
+		        wp_enqueue_style( 'paca_wp_admin_css' );
+		}
 
 
 	}
