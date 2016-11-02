@@ -56,15 +56,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /*!
- *  Font Awesome 4.6.2 by @davegandy - http://fontawesome.io - @fontawesome
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
  *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
  */
 /* FONT PATH
  * -------------------------- */
 @font-face {
   font-family: 'FontAwesome';
-  src: url(fonts/font-awesome/fontawesome-webfont.eot?v=4.6.2&1463136266);
-  src: url(fonts/font-awesome/fontawesome-webfont.eot?v=4.6.2&1463136266#iefix) format("embedded-opentype"), url(fonts/font-awesome/fontawesome-webfont.woff2?v=4.6.2&1463136266) format("woff2"), url(fonts/font-awesome/fontawesome-webfont.woff?v=4.6.2&1463136266) format("woff"), url(fonts/font-awesome/fontawesome-webfont.ttf?v=4.6.2&1463136266) format("truetype"), url(fonts/font-awesome/fontawesome-webfont.svg?v=4.6.2&1463136266#fontawesomeregular) format("svg");
+  src: url(fonts/font-awesome/fontawesome-webfont.eot?v=4.7.0&1478028454);
+  src: url(fonts/font-awesome/fontawesome-webfont.eot?v=4.7.0&1478028454#iefix) format("embedded-opentype"), url(fonts/font-awesome/fontawesome-webfont.woff2?v=4.7.0&1478028454) format("woff2"), url(fonts/font-awesome/fontawesome-webfont.woff?v=4.7.0&1478028454) format("woff"), url(fonts/font-awesome/fontawesome-webfont.ttf?v=4.7.0&1478028454) format("truetype"), url(fonts/font-awesome/fontawesome-webfont.svg?v=4.7.0&1478028454#fontawesomeregular) format("svg");
   font-weight: normal;
   font-style: normal;
 }
@@ -2441,6 +2441,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 .fa-battery-4:before,
+.fa-battery:before,
 .fa-battery-full:before {
   content: "";
 }
@@ -2887,6 +2888,194 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   content: "";
 }
 
+.fa-google-plus-circle:before,
+.fa-google-plus-official:before {
+  content: "";
+}
+
+.fa-fa:before,
+.fa-font-awesome:before {
+  content: "";
+}
+
+.fa-handshake-o:before {
+  content: "";
+}
+
+.fa-envelope-open:before {
+  content: "";
+}
+
+.fa-envelope-open-o:before {
+  content: "";
+}
+
+.fa-linode:before {
+  content: "";
+}
+
+.fa-address-book:before {
+  content: "";
+}
+
+.fa-address-book-o:before {
+  content: "";
+}
+
+.fa-vcard:before,
+.fa-address-card:before {
+  content: "";
+}
+
+.fa-vcard-o:before,
+.fa-address-card-o:before {
+  content: "";
+}
+
+.fa-user-circle:before {
+  content: "";
+}
+
+.fa-user-circle-o:before {
+  content: "";
+}
+
+.fa-user-o:before {
+  content: "";
+}
+
+.fa-id-badge:before {
+  content: "";
+}
+
+.fa-drivers-license:before,
+.fa-id-card:before {
+  content: "";
+}
+
+.fa-drivers-license-o:before,
+.fa-id-card-o:before {
+  content: "";
+}
+
+.fa-quora:before {
+  content: "";
+}
+
+.fa-free-code-camp:before {
+  content: "";
+}
+
+.fa-telegram:before {
+  content: "";
+}
+
+.fa-thermometer-4:before,
+.fa-thermometer:before,
+.fa-thermometer-full:before {
+  content: "";
+}
+
+.fa-thermometer-3:before,
+.fa-thermometer-three-quarters:before {
+  content: "";
+}
+
+.fa-thermometer-2:before,
+.fa-thermometer-half:before {
+  content: "";
+}
+
+.fa-thermometer-1:before,
+.fa-thermometer-quarter:before {
+  content: "";
+}
+
+.fa-thermometer-0:before,
+.fa-thermometer-empty:before {
+  content: "";
+}
+
+.fa-shower:before {
+  content: "";
+}
+
+.fa-bathtub:before,
+.fa-s15:before,
+.fa-bath:before {
+  content: "";
+}
+
+.fa-podcast:before {
+  content: "";
+}
+
+.fa-window-maximize:before {
+  content: "";
+}
+
+.fa-window-minimize:before {
+  content: "";
+}
+
+.fa-window-restore:before {
+  content: "";
+}
+
+.fa-times-rectangle:before,
+.fa-window-close:before {
+  content: "";
+}
+
+.fa-times-rectangle-o:before,
+.fa-window-close-o:before {
+  content: "";
+}
+
+.fa-bandcamp:before {
+  content: "";
+}
+
+.fa-grav:before {
+  content: "";
+}
+
+.fa-etsy:before {
+  content: "";
+}
+
+.fa-imdb:before {
+  content: "";
+}
+
+.fa-ravelry:before {
+  content: "";
+}
+
+.fa-eercast:before {
+  content: "";
+}
+
+.fa-microchip:before {
+  content: "";
+}
+
+.fa-snowflake-o:before {
+  content: "";
+}
+
+.fa-superpowers:before {
+  content: "";
+}
+
+.fa-wpexplorer:before {
+  content: "";
+}
+
+.fa-meetup:before {
+  content: "";
+}
+
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2908,8 +3097,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 /*!
- * Bootstrap v3.3.7 (http://getbootstrap.com)
- * Copyright 2011-2016 Twitter, Inc.
+ * Bootstrap v3.3.6 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
@@ -3218,8 +3407,8 @@ th {
 }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?1465023141);
-  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?&1465023141#iefix) format("embedded-opentype"), url(fonts/bootstrap/glyphicons-halflings-regular.woff2?1465023141) format("woff2"), url(fonts/bootstrap/glyphicons-halflings-regular.woff?1465023141) format("woff"), url(fonts/bootstrap/glyphicons-halflings-regular.ttf?1465023141) format("truetype"), url(fonts/bootstrap/glyphicons-halflings-regular.svg?1465023141#glyphicons_halflingsregular) format("svg");
+  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?1478028454);
+  src: url(fonts/bootstrap/glyphicons-halflings-regular.eot?&1478028454#iefix) format("embedded-opentype"), url(fonts/bootstrap/glyphicons-halflings-regular.woff2?1478028454) format("woff2"), url(fonts/bootstrap/glyphicons-halflings-regular.woff?1478028454) format("woff"), url(fonts/bootstrap/glyphicons-halflings-regular.ttf?1478028454) format("truetype"), url(fonts/bootstrap/glyphicons-halflings-regular.svg?1478028454#glyphicons_halflingsregular) format("svg");
 }
 .glyphicon {
   position: relative;
@@ -4326,6 +4515,7 @@ a:hover, a:focus {
   text-decoration: underline;
 }
 a:focus {
+  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -6026,6 +6216,7 @@ select[size] {
 input[type="file"]:focus,
 input[type="radio"]:focus,
 input[type="checkbox"]:focus {
+  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -6578,6 +6769,7 @@ select[multiple].input-lg,
   user-select: none;
 }
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
+  outline: thin dotted;
   outline: 5px auto -webkit-focus-ring-color;
   outline-offset: -2px;
 }
@@ -10760,6 +10952,30 @@ button.close {
 .paca-button.paca-button-java.bordered:hover {
   color: white;
 }
+.paca-button.paca-button-white {
+  background-color: transparent;
+  color: white;
+}
+.paca-button.paca-button-white:hover {
+  background-color: transparent;
+  color: white;
+}
+.paca-button.paca-button-white:focus {
+  color: white;
+}
+.paca-button.paca-button-white:active {
+  color: white;
+}
+.paca-button.paca-button-white:visited {
+  color: white;
+}
+.paca-button.paca-button-white.bordered {
+  color: #43a047;
+  border-color: #43a047;
+}
+.paca-button.paca-button-white.bordered:hover {
+  color: white;
+}
 .paca-button.paca-button-apple {
   background-color: #43a047;
   color: white;
@@ -10813,7 +11029,7 @@ button.close {
   color: white;
 }
 .paca-button.paca-button-bright-sun:hover {
-  background-color: #fdce03;
+  background-color: #fdce02;
   color: white;
 }
 .paca-button.paca-button-bright-sun:focus {

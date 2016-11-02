@@ -36,11 +36,9 @@
 		}
 
 		static function require_files(){
-
-			//require_once('core/customiser.php');
+			require_once('inc/posts-types.php');
 			require_once('vc/init.php');
-
-			
+			require_once('inc/meta-box.php');			
 		}
 
 		/**
@@ -204,6 +202,7 @@
 
 		$list = array(
 					__( 'Normal', 'js_composer' ) 			=> 'normal',
+					__( 'White', 'js_composer' ) 			=> 'paca-button-white',
 					__( 'Apple', 'js_composer' ) 			=> 'paca-button-apple',
 					__( 'Black', 'js_composer' ) 			=> 'paca-button-black',
 					__( 'Bright Sun', 'js_composer' ) 		=> 'paca-button-bright-sun',

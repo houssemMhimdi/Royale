@@ -206,6 +206,31 @@
 		    } 		          		
     }
 
+    &.#{$paca-prefix}-button-white{
+    		background-color:transparent;
+    		color:$paca-white;
+		    &:hover{
+		    	background-color:transparent;
+		    	color:$paca-white;
+		    }
+		    &:focus{
+		    	color:$paca-white;    	
+		    }
+		    &:active{
+		    	color:$paca-white;    	
+		    }
+		    &:visited{
+		    	color:$paca-white;
+		    } 
+		    &.bordered{
+		    	color:$paca-apple;
+		    	border-color:$paca-apple;
+		    	&:hover{
+		    		color:$paca-white;
+		    	}
+		    }     		
+    }
+
     &.#{$paca-prefix}-button-apple{
     		background-color:$paca-apple;
     		color:$paca-white;

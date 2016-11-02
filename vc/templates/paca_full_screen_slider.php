@@ -16,7 +16,7 @@ $inline_css = $wrapper_attributes = array();
 $atts = vc_map_get_attributes( $this->getShortcode(), $atts ); 
 
 $title 		= (isset($atts['title'])  		&& !empty($atts['title']) 	  	? esc_attr($atts['title']) : '' );
-$btn_title 	= (isset($atts['button']) 		&& !empty($atts['button']) 	  	? esc_attr($atts['button']) : '' );
+$btn_title 	= (isset($atts['button_title']) && !empty($atts['button_title'])? esc_attr($atts['button_title']) : '' );
 $btn_shape  = (isset($atts['btn_shape']) 	&& !empty($atts['btn_shape']) 	? esc_attr($atts['btn_shape']) : '' ); 
 $btn_size  	= (isset($atts['btn_size']) 	&& !empty($atts['btn_size'])  	? esc_attr($atts['btn_size'])  : '' ); 
 $btn_colour = (isset($atts['btn_colour']) 	&& !empty($atts['btn_colour'])	? esc_attr($atts['btn_colour']): '' ); 
